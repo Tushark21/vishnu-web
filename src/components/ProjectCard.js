@@ -10,7 +10,7 @@ class ProjectCard extends React.Component {
             <div className='exp_card'>
 
                 <h2>{this.props.dataObject.project}</h2>
-
+                <h5>{this.props.dataObject.company}</h5>
                 <ul>
                     {this.props.dataObject.points.map((point, i) => <li key={i} >{point.text}</li>)}
                 </ul>

@@ -1,32 +1,39 @@
 const activities = [
   {
-    title: "ACM ICPC",
-    subTitle: '',
-    info: 'Qualify for the ACM-ICPC Asia Amritapuri Onsite Regional',
-    src: "gold-coin.png",
+    title: "Star Colleague (05/2021)",
+    subTitle: ' .',
+    info: 'Lead the project of tool transition from ODCT to CLIC and trained colleagues on basic SQL to extract the data from cornerstone.',
+    src: "ax-logo.svg",
     links: [
-      {
-        text: 'ACM ICPC 2018',
-        link: 'https://drive.google.com/drive/my-drive'
-      }
+      
     ]
   },
   {
-    title: "Competitive Programming",
-    subTitle: '',
-    info: 'HackerRank @tushargautamk21, CodeChef @tushark21',
-    src: "heart.png",
+    title: "BCP Hero Award (07/2020)",
+    subTitle: ' .',
+    info: 'Managed both CKYC and GST process to complete their monthly activities within the regulatory timeline in lockdown.',
+    src: "ax-logo.svg",
     links: [
-      {
-        text: 'HackerRank',
-        link: 'https://www.hackerrank.com/tushargautamk21?hr_r=1'
-      },
-      {
-        text: 'CodeChef',
-        link: 'https://www.codechef.com/users/tushark21'
-      }
+      
     ]
-  }
+  },
+  {
+    title: "Beyond Call of Duty Award (11/2019)",
+    subTitle: ' .',
+    info: 'Identified GST process gap and was able to remediate the reporting before the last day of amendment.',
+    src: "ax-logo.svg",
+    links: [
+      
+    ]
+  },
+  {
+    title: "Customer Champ Award (04/2019)",
+    subTitle: ' .',
+    info: '',
+    src: "ax-logo.svg",
+    links: [
+    ]
+  },
 ];
 
 export default activities;

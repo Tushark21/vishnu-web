@@ -2,22 +2,18 @@ const meObject = {
   profiles: [
     {
       text: 'LinkedIn',
-      link: 'https://www.linkedin.com/in/tushar-gautam-9363a9202/'
-    },
-    {
-      text: 'Medium',
-      link: 'https://medium.com/@tushargautamk21'
+      link: 'https://www.linkedin.com/in/vishnu-srivastava-2a0aab157'
     },
     {
       text: 'Instagram',
-      link: 'https://github.com/Tushark21'
+      link: 'https://www.instagram.com/myselfvishnu/?hl=en'
     },
   ],
   blogs: [
     {
       title: 'Mr Eat A Lot',
       src: 'https://raw.githubusercontent.com/Tushark21/Assets/master/unknown.png',
-      link: 'https://www.instagram.com/_mr.eatalot/'
+      link: 'https://www.instagram.com/mr.eat_a_lot/?hl=en'
     },
     {
       title: 'Hackerrank',

@@ -15,10 +15,6 @@ const skillsList = [
         src: 'react-logo.png'
       },
       {
-        text: 'Tableau',
-        src: 'react-logo.png'
-      },
-      {
         text: 'Pandas',
         src: 'react-logo.png'
       }
@@ -53,9 +49,18 @@ const skillsList = [
         src: 'react-logo.png'
       },
       {
-        text: 'Repoting',
+        text: 'Reporting',
+        src: 'react-logo.png'
+      },
+      {
+        text: 'Stakeholder',
+        src: 'react-logo.png'
+      },
+      {
+        text: 'Leader',
         src: 'react-logo.png'
       }
+      
     ]
   }
 ];

@@ -1,9 +1,9 @@
 const educationList = [
   {
     title: "Bachelor of Science",
-    subTitle: 'Shyam Lal College',
+    subTitle: 'Delhi University',
     info: 'Physical Science (Computer Science)',
-    src: 'slc-logo.png',
+    src: 'du-logo.png',
     links: []
   },
   {

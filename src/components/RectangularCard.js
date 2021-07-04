@@ -7,7 +7,7 @@ class ReactangularCard extends React.Component {
     render() {
         return (
             <div className="card_class">
-                <div style={{ flex: '1 1 auto' }}>
+                <div style={{ flex: '1 1 auto', width:'60%'}}>
                     <h2>{this.props.dataObject.title}</h2>
                     <h4>
                         {this.props.dataObject.subTitle}
@@ -22,6 +22,7 @@ class ReactangularCard extends React.Component {
                     </p>
                 </div>
 
+                <div>
                 <img
                     width={128}
                     height={128}
@@ -31,6 +32,7 @@ class ReactangularCard extends React.Component {
                     className='row justify-content-md-end'
                     style={{ margin: '10px', flex: '1 1 128' }}
                 />
+                </div>
             </div>
         );
     }

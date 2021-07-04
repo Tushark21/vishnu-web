@@ -14,8 +14,8 @@ class Me extends React.Component {
         return (
             <Container>
                 <div className='me' style={{ marginTop: '15px', fontSize: '20px', backgroundImage: 'url(' + require('../assets/bg.png').default + ')' }}>
-                    <Row className="row justify-content-md" >
-                        <p>Hi! I am Vishnu Srivastava, a data ... from Delhi, India.</p>
+                    <Row className="row justify-content-md">
+                        <p>Hi! I am Vishnu Srivastava, Executive-Operations at American Experss and data analysis enthusiast from Delhi, India.</p>
                     </Row>
                     <Row className="row justify-content-md" >
                         <ul>
