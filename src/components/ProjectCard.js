@@ -1,7 +1,5 @@
 import React from 'react';
-import { Row, Col, Container } from 'react-bootstrap';
 import '../App.css';
-import LinkIcon from '@material-ui/icons/Link';
 
 class ProjectCard extends React.Component {
 
@@ -10,14 +8,14 @@ class ProjectCard extends React.Component {
             <div className='exp_card'>
 
                 <h2>{this.props.dataObject.project}</h2>
-                <h5>{this.props.dataObject.company}</h5>
+                <h3>{this.props.dataObject.company}</h3>
                 <ul>
                     {this.props.dataObject.points.map((point, i) => <li key={i} >{point.text}</li>)}
                 </ul>
 
-                <div>
+                <div style={{display:"flex", flexWrap: "wrap", justifyContent: "center"}}>
                     {this.props.dataObject.techStack.map((tech, i) =>
-                        <span key={i} className='ticket_class'> {' ' + tech} </span>)
+                        <span key={i} className='tag_class'> {' ' + tech} </span>)
                     }
                 </div>
             </div>

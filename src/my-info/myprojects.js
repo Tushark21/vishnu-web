@@ -1,6 +1,6 @@
 const projectList = [
   {
-    project: "Executive-Operations",
+    project: "Executive-Operations (05/2018-Present)",
     company: 'American Express India',
     points: [
       {
@@ -31,9 +31,9 @@ const projectList = [
         text: 'Created process SOPs for both CKYC and GST.'
       }
     ],
-    techStack: ['Data Analysis','Hive','Trainer','Reporting','Stakeholder Management','Team Managing','SME'],
+    techStack: ['Data Analysis','Hive','Trainer','Reporting','Team Managing','Stakeholder Management','SME'],
   },{
-    project: "Business Data Analyst",
+    project: "Business Data Analyst (03/2018-05/2018)",
     company: 'ManpowerGroup Services India Pvt. Ltd',
     points: [
       {
